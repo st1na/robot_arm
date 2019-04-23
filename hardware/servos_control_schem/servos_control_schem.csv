@@ -1,0 +1,143 @@
+Source:,/media/st1na/Shared/Projects/6dof_arm/hardware/servos_control_schem/servos_control_schem.sch,,,,,
+Date:,Mon 25 Mar 2019 11:13:59 PM EET,,,,,
+Tool:,Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,86,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C2,100uF,Device:CP,Capacitor_SMD:CP_Elec_6.3x5.4,~
+,,C3,18pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C4,18pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C5,10nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C6,100uF,Device:CP_Small,Capacitor_SMD:CP_Elec_6.3x5.4,~
+,,C7,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C8,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C9,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C10,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C11,27pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C12,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C13,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C14,100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C15,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C16,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C17,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C18,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C19,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C20,0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,CSEN1,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CSEN2,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CSEN3,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CSEN4,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CSEN5,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CSEN6,1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,CT1,470pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,Co1,470uF,Device:CP,Capacitor_SMD:CP_Elec_6.3x7.7,~
+,,D1,1N5822,Diode:1N5822,Diode_SMD:D_SMC,http://www.vishay.com/docs/88526/1n5820.pdf
+,,D2,LED_R,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,D3,LED_G,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,D4,LED_B,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,J1,ICSP_conn,Connector_Generic:Conn_02x03_Odd_Even,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,~
+,,J2,rpi connector,Connector_Generic:Conn_02x20_Odd_Even,Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical,~
+,,J3,PW_IN,Connector:Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,~
+,,L1,1uH,Device:L_Small,Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,~
+,,L2,47uH/2A,Device:L_Small,Inductor_SMD:L_12x12mm_H6mm,~
+,,L3,4.7uH/2A,Device:L_Small,Inductor_SMD:L_7.3x7.3_H3.5,~
+,,M1,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,M2,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,M3,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,M4,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,M5,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,M6,Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+,,R1,10KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R2,50KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R3,1KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R4,3KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R5,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R6,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R7,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R8,510R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R9,510R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R10,510R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R11,4.7KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R12,4.7KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R13,976KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R14,309KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RESET1,SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_FSMSM,
+,,RF1,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RF2,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RF3,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RF4,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RF5,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RF6,27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG1,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG2,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG3,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG4,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG5,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RG6,1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,RShunt1,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,RShunt2,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,RShunt3,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,RShunt4,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,RShunt5,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,RShunt6,100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+,,Rsc1,0.22R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,U1,MC34063AD,Regulator_Switching:MC34063AD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+,,U2,ATmega328PB-AU,ATmega328PB-AU:ATmega328PB-AU,Package_QFP:TQFP-32_7x7mm_P0.8mm,http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf
+,,U3,MCP1642B|D-ADJ,servos_control_schem-rescue:MCP1642B|D-ADJ-Regulator_SwitchingMCP1642B|D-ADJ,Package_SO:MSOP-8_3x3mm_P0.65mm,http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
+,,U4,LT1117-3.3,Regulator_Linear:LT1117-3.3,Package_TO_SOT_SMD:SOT-223,http://cds.linear.com/docs/en/datasheet/1117fd.pdf
+,,U5,NE5532,Amplifier_Operational:NE5532,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne5532.pdf
+,,U6,NE5532,Amplifier_Operational:NE5532,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne5532.pdf
+,,U7,NE5532,Amplifier_Operational:NE5532,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne5532.pdf
+,,Y1,16 MHz,Device:Crystal_Small,Crystal:Crystal_SMD_HC49-SD,~
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,2,"C1, C14",100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+2,1,C2,100uF,Device:CP,Capacitor_SMD:CP_Elec_6.3x5.4,~
+3,2,"C3, C4",18pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+4,1,C5,10nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+5,1,C6,100uF,Device:CP_Small,Capacitor_SMD:CP_Elec_6.3x5.4,~
+6,6,"C7, C8, C9, C10, C12, C13",10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+7,1,C11,27pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+8,6,"C15, C16, C17, C18, C19, C20",0.1uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+9,6,"CSEN1, CSEN2, CSEN3, CSEN4, CSEN5, CSEN6",1x3,Jumper:Jumper_3_Bridged12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+10,1,CT1,470pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+11,1,Co1,470uF,Device:CP,Capacitor_SMD:CP_Elec_6.3x7.7,~
+12,1,D1,1N5822,Diode:1N5822,Diode_SMD:D_SMC,http://www.vishay.com/docs/88526/1n5820.pdf
+13,1,D2,LED_R,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+14,1,D3,LED_G,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+15,1,D4,LED_B,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+16,1,J1,ICSP_conn,Connector_Generic:Conn_02x03_Odd_Even,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,~
+17,1,J2,rpi connector,Connector_Generic:Conn_02x20_Odd_Even,Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical,~
+18,1,J3,PW_IN,Connector:Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,~
+19,1,L1,1uH,Device:L_Small,Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,~
+20,1,L2,47uH/2A,Device:L_Small,Inductor_SMD:L_12x12mm_H6mm,~
+21,1,L3,4.7uH/2A,Device:L_Small,Inductor_SMD:L_7.3x7.3_H3.5,~
+22,6,"M1, M2, M3, M4, M5, M6",Motor_Servo,Motor:Motor_Servo,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://forums.parallax.com/uploads/attachments/46831/74481.png
+23,1,R1,10KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+24,1,R2,50KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+25,1,R3,1KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+26,1,R4,3KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+27,3,"R5, R6, R7",330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+28,3,"R8, R9, R10",510R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+29,2,"R11, R12",4.7KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+30,1,R13,976KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+31,1,R14,309KR,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+32,1,RESET1,SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_FSMSM,
+33,6,"RF1, RF2, RF3, RF4, RF5, RF6",27KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+34,6,"RG1, RG2, RG3, RG4, RG5, RG6",1KR,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+35,6,"RShunt1, RShunt2, RShunt3, RShunt4, RShunt5, RShunt6",100mR,Device:R,Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,~
+36,1,Rsc1,0.22R,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+37,1,U1,MC34063AD,Regulator_Switching:MC34063AD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+38,1,U2,ATmega328PB-AU,ATmega328PB-AU:ATmega328PB-AU,Package_QFP:TQFP-32_7x7mm_P0.8mm,http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf
+39,1,U3,MCP1642B|D-ADJ,servos_control_schem-rescue:MCP1642B|D-ADJ-Regulator_SwitchingMCP1642B|D-ADJ,Package_SO:MSOP-8_3x3mm_P0.65mm,http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
+40,1,U4,LT1117-3.3,Regulator_Linear:LT1117-3.3,Package_TO_SOT_SMD:SOT-223,http://cds.linear.com/docs/en/datasheet/1117fd.pdf
+41,3,"U5, U6, U7",NE5532,Amplifier_Operational:NE5532,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne5532.pdf
+42,1,Y1,16 MHz,Device:Crystal_Small,Crystal:Crystal_SMD_HC49-SD,~

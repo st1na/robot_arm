@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name atmega32u4)(type Legacy)(uri ${KIPRJMOD}/atmega32u4.lib)(options "")(descr ""))
+  (lib (name Regulator_SwitchingMCP1642B|D-ADJ)(type Legacy)(uri ${KIPRJMOD}/Regulator_SwitchingMCP1642B|D-ADJ.lib)(options "")(descr ""))
+  (lib (name ATmega328PB-AU)(type Legacy)(uri ${KIPRJMOD}/ATmega328PB-AU.lib)(options "")(descr ""))
+  (lib (name servos_control_schem-rescue)(type Legacy)(uri ${KIPRJMOD}/servos_control_schem-rescue.lib)(options "")(descr ""))
+)
