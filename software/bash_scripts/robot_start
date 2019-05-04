@@ -1,0 +1,12 @@
+#!/bin/bash
+  
+MASTER_IP=$(hostname -I | cut -d' ' -f1)
+echo ${MASTER_IP}
+
+export ROS_MASTER_URI=http://${MASTER_IP}:11311
+export ROS_IP=${MASTER_IP}
+
+ROBOT_WORKSPACE=$(find ~ -type d -name 'robot_moveit_ws')
+
+source $ROBOT_WORKSPACE/devel/setup.bash
+roslaunch robot_moveit_config robot_start.launch
